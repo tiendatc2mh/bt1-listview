@@ -7,14 +7,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity2">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Trịnh Tiến Đạt+B18DCCN147"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDiaDiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
     <ImageView
         android:id="@+id/imgView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/imgadult" />
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
 
     <TextView
-        android:id="@+id/txtDienTich"
+        android:id="@+id/txtMoTa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|left"
@@ -23,20 +40,6 @@
         android:layout_marginRight="40dp"
         android:layout_marginBottom="10dp"
         android:gravity="center_horizontal|center_vertical"
-        android:text="Diện tích:"
-        android:textSize="24sp" />
-
-    <TextView
-        android:id="@+id/txtDanSo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal|left"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginBottom="10dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="Dân số: "
         android:textSize="24sp" />
 
 </LinearLayout>

@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView = findViewById(R.id.listView);
-        final String[] data ={"Hà Nội", "TP.Hồ Chí Minh", "Đà Nẵng", "Hải Phòng", "Thanh Hóa", "Ninh Bình"};
+        final String[] data ={"Hồ Tây", "Tháp Rùa", "Chùa Một Cột", "Quốc Tử Giám", "Lăng Bác", "Thư Viện QG"};
 
         ArrayAdapter<String> adapter =new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1,data);
         listView.setAdapter(adapter);
