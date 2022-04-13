@@ -44,6 +44,7 @@
         android:layout_marginBottom="10dp"
         android:gravity="center_horizontal|center_vertical"
         android:textColor="#F8F5F5"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:background="@drawable/border"/>
 
 </LinearLayout>
