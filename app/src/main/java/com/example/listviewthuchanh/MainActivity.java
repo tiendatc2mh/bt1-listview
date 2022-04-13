@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView);
         final String[] data ={"Hồ Tây", "Tháp Rùa", "Chùa Một Cột", "Quốc Tử Giám", "Lăng Bác", "Thư Viện QG"};
 
-        ArrayAdapter<String> adapter =new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1,data);
+        ArrayAdapter<String> adapter =new ArrayAdapter<>(MainActivity.this, R.layout.list,R.id.list_content,data);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
